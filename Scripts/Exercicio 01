@@ -1,0 +1,22 @@
+/* COMANDOS SQL */
+
+/* Mostra todos os Bancos de Dados. */
+SHOW DATABASES;
+
+/* Entra no Banco de Dados selecionado pelo nome. */
+USE DATABASE_NAME;
+
+/* Mostra todas as tabelas dentro do banco de dados em que você entrou. */
+SHOW TABLES;
+
+/* Mostra todas as configurações dos campos da tabela selecionada pelo nome, o comando também pode ser digitado como "DESCRIBE NOME_TABELA". */
+DESC TABLE_NAME;
+
+/* Mostra todos(ou um campo em expecífico) os dados e campos da tabela selecionada pelo nome. */
+SELECT * FROM TABLE_NAME;
+
+/* Mostra informações úteis sobre a máquina, o SQL e o Banco de Dados */
+STATUS;
+
+/* Criar um novo Banco de Dados */
+CREATE DATABASE DATABASE_NAME;
